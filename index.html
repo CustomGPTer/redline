@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redline: a free HIIT and interval timer for Android</title>
+<meta name="description" content="Redline is an interval timer for Android with 36 ready-made workouts, spoken cues, Bluetooth heart-rate zones, history and plans. It runs with the screen off. Free, no adverts, no accounts.">
+<meta name="author" content="Jonathan Jackson">
+<link rel="canonical" href="https://customgpter.github.io/redline/">
+<meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0e13" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Redline">
+<meta property="og:title" content="Redline: a free HIIT and interval timer for Android">
+<meta property="og:description" content="Redline is an interval timer for Android with 36 ready-made workouts, spoken cues, Bluetooth heart-rate zones, history and plans. It runs with the screen off. Free, no adverts, no accounts.">
+<meta property="og:url" content="https://customgpter.github.io/redline/">
+<meta property="og:image" content="https://customgpter.github.io/redline/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Two Redline screens, the home screen and the timer during a work block, beside the Redline name">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/literata-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/literata-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css?v=1">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Redline","url":"https://customgpter.github.io/redline/","description":"Redline is an Android interval timer for HIIT, Tabata, circuits and running intervals. It shows a full-screen colour for each block, beeps and speaks every change, reads Bluetooth heart-rate straps and keeps a history with streaks and plans. It runs with the screen off.","applicationCategory":"HealthApplication","applicationSubCategory":"Interval timer","operatingSystem":"Android 10 or later","softwareVersion":"1.0","downloadUrl":"https://github.com/CustomGPTer/redline/releases/latest/download/Redline.apk","releaseNotes":"https://customgpter.github.io/redline/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/redline/assets/og.png","screenshot":["https://customgpter.github.io/redline/assets/shots/home.webp","https://customgpter.github.io/redline/assets/shots/work.webp","https://customgpter.github.io/redline/assets/shots/session.webp"],"featureList":["36 ready-made workouts","Build your own","Type it","Quick Start and Surprise me","A colour for every block","Screen off, still running","Beeps, bells and a voice","Seen and felt, not just heard","Your music stays on","Heart rate from a strap","Coaching to a zone","History and progress","Goals, streaks and badges","Five plans","Exercise names","Gym display and a TV clock","Share a workout","Reminders, widgets and shortcuts","Health Connect","Backup to a file","No adverts, no accounts"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Redline","url":"https://customgpter.github.io/redline/","inLanguage":"en-GB"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Redline really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription, no trial and no adverts, and nothing in the app is locked."}},{"@type":"Question","name":"Is Redline on Google Play?","acceptedAnswer":{"@type":"Answer","text":"No. Redline is a personal project and is downloaded from this site as an Android app file. It needs Android 10 or later, which covers almost every phone sold in recent years."}},{"@type":"Question","name":"Does it keep going with the screen off?","acceptedAnswer":{"@type":"Answer","text":"Yes. The workout runs in the background, the beeps and the voice still play, and the notification shows the countdown with Pause, Skip and Finish. A switch in Settings shows the timer over the lock screen, and another keeps the screen on for the whole workout."}},{"@type":"Question","name":"Will it stop my music?","acceptedAnswer":{"@type":"Answer","text":"No. By default music from another app dips while Redline beeps or speaks, then comes back. You can have it left alone instead, so the cues play over the top."}},{"@type":"Question","name":"Which heart-rate sensors work?","acceptedAnswer":{"@type":"Answer","text":"Bluetooth chest straps and armbands that send heart rate in the standard way, which most of them do. Most smartwatches, including Galaxy Watches, do not send heart rate to phone apps by themselves, so they do not appear. Redline does not measure heart rate with the phone."}},{"@type":"Question","name":"Do I need a heart-rate sensor?","acceptedAnswer":{"@type":"Answer","text":"No. The timer, the cues, the history, the plans and the streaks all work without one. Without a sensor, calories are a rough estimate from the workout and your weight."}},{"@type":"Question","name":"Does it need the internet?","acceptedAnswer":{"@type":"Answer","text":"No. A workout needs no internet at all. Redline goes online only to ask whether a newer version is out, once a day when you open it, and the first time you open the QR scanner."}},{"@type":"Question","name":"What can I type in Type it?","acceptedAnswer":{"@type":"Answer","text":"Times are written as work/rest, so 20/10 is 20 seconds of work and 10 of rest. A number and x repeats what is in the brackets, wu and cd add a warm-up and a cool-down, break adds a longer break, and a name after a time labels it."}},{"@type":"Question","name":"How do I put the timer on a TV?","acceptedAnswer":{"@type":"Answer","text":"Mirror your phone to the TV, with Smart View on a Samsung phone or with a cable, then start a workout. The TV shows its own full-screen clock in the colour of the block. There is nothing to set up."}},{"@type":"Question","name":"Is there a watch app?","acceptedAnswer":{"@type":"Answer","text":"No. Redline runs on the phone only, and it does not read heart rate from a watch."}},{"@type":"Question","name":"How do I move my workouts to a new phone?","acceptedAnswer":{"@type":"Answer","text":"In Settings, open Backup and restore and choose Save a backup file. It holds your workouts, history and settings in one file. Send it to the new phone, install Redline there and choose Restore from a backup file."}},{"@type":"Question","name":"How do I update Redline?","acceptedAnswer":{"@type":"Answer","text":"Redline tells you on its home screen when a newer version is out. Download it from this site and install it over the one you have. Your workouts, history and settings are kept."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<div class="wrap">
+<a class="brand" href="./" aria-label="Redline home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="rl-m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b222d"/><stop offset="1" stop-color="#0b0e13"/></linearGradient></defs><rect width="108" height="108" rx="24" fill="url(#rl-m)"/><g transform="translate(54 54) scale(1.3) translate(-54 -54)" fill="none" stroke-linecap="round"><path d="M37.03 70.97A24 24 0 1 1 73.66 40.23" stroke="#f4f6fa" stroke-width="7"/><path d="M77.2 48.5A24 24 0 0 1 70.97 70.97" stroke="#ff3b2f" stroke-width="7"/><path d="M54 54 69.5 46.2" stroke="#ff3b2f" stroke-width="5"/><circle cx="54" cy="54" r="4.6" fill="#f4f6fa"/></g></svg><span>Redline</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="compare.html">Compare</a></li><li><a href="releases.html">Releases</a></li><li><a class="more-apps" href="more-apps.html"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li><li><a href="licences.html">Licences</a></li></ul></nav>
+</div>
+</header>
+<main id="main">
+<div class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<h1>Go flat out. Redline counts the seconds.</h1>
+<p class="lede">Redline is an interval timer for Android. Pick a workout such as Tabata or the Norwegian 4x4, or build your own, and press Start. It fills the screen with the colour of each block, beeps and speaks every change, and keeps going with the screen off.</p>
+<p class="lede">It is free, with no adverts and nothing to unlock. There is no account, and your workouts, your history and your heart-rate records stay on your phone.</p>
+<p class="get"><a class="button" href="https://github.com/CustomGPTer/redline/releases/latest/download/Redline.apk">Download for Android</a></p>
+<p class="facts">Free, with nothing to unlock. Android 10 or later. No ads, no accounts. <a href="compare.html">Compare</a> &middot; <a href="releases.html">Release notes</a></p>
+<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
+</div>
+<div class="demo" role="img" aria-label="The Redline timer during round 3 of 8 of a Tabata workout. A red screen counts down the 20 seconds of work inside a ring that empties like a rev counter, and shows a heart rate of 172 in zone 5. At the change the screen flashes and turns blue for the 10 seconds of rest. Underneath are the settings for the workout: 20 seconds of work, 10 seconds of rest, eight rounds, the voice calling round numbers and a chest strap for heart rate. The buttons read Sounds, Workouts and Start."><div class="view"><div class="bar"><span class="dot"></span><span>Tabata</span><span class="next">Round 3 of 8</span></div><div class="stage"><span class="ph"><span class="ph-a">Work</span><span class="ph-b">Rest</span></span><span class="dial"><svg viewBox="0 0 200 200" aria-hidden="true"><path class="track" d="M40.6 159.4A84 84 0 1 1 159.4 159.4"/><path class="run" pathLength="100" d="M40.6 159.4A84 84 0 1 1 159.4 159.4"/></svg><span class="clock"><span class="reel"><b>20</b><b>19</b><b>18</b><b>17</b><b>16</b><b>15</b><b>14</b><b>13</b><b>12</b><b>11</b><b>10</b><b>9</b><b>8</b><b>7</b><b>6</b><b>5</b><b>4</b><b>3</b><b>2</b><b>1</b><b>10</b><b>9</b><b>8</b><b>7</b><b>6</b><b>5</b><b>4</b><b>3</b><b>2</b><b>1</b></span></span><span class="unit">seconds</span></span><span class="call"><span class="call-a">172 bpm &middot; zone 5</span><span class="call-b">Next: round 4</span></span></div></div><div class="sheet"><ul class="rows"><li class="row" style="--j:0;--c:#d4231a"><span class="k">Work</span><span class="v">0:20</span><span class="t">All out</span></li><li class="row calm" style="--j:1;--c:#0c86c8"><span class="k">Rest</span><span class="v">0:10</span><span class="t">Breathe</span></li><li class="row calm" style="--j:2;--c:#5b6678"><span class="k">Rounds</span><span class="v">8</span><span class="t">4:00 in all</span></li><li class="row" style="--j:3;--c:#d4231a"><span class="k">Voice</span><span class="v">Round numbers, halfway</span><span class="t">On</span></li><li class="row" style="--j:4;--c:#d4231a"><span class="k">Heart rate</span><span class="v">Chest strap</span><span class="t">Paired</span></li></ul><div class="acts"><span>Sounds</span><span>Workouts</span><span class="do">START</span></div></div></div>
+</div>
+</div>
+
+<section id="how" aria-labelledby="how-h">
+<div class="wrap">
+<h2 id="how-h">How it works</h2>
+<p class="intro">Interval training is short spells of hard effort with easy spells between them. The timer&#x27;s job is to tell you which one you are in, so that you never have to look at a clock.</p>
+<ol class="steps">
+<li><h3>Pick a workout</h3><p>Choose one of the 36 that come with the app, tap <span class="path">Quick Start</span> for a plain work and rest timer, or build your own. Each workout shows its blocks as a row of bars before you begin.</p></li>
+<li><h3>Press Start</h3><p>You get a countdown to get ready, then the screen turns red for work and blue for rest. A beep and a voice mark every change, with ticks for the last few seconds.</p></li>
+<li><h3>See what you did</h3><p>The session is saved with its time, rounds and calories, and with a heart-rate graph if you wore a sensor. It counts towards your weekly goal and your streak.</p></li>
+</ol>
+</div>
+</section>
+
+<section id="screens" aria-labelledby="screens-h">
+<div class="wrap">
+<h2 id="screens-h">What it looks like</h2>
+<p class="intro">Dark, with one bold colour for each kind of block and numbers you can read mid-sprint.</p>
+<ul class="shots"><li><figure><img src="assets/shots/home.webp" width="540" height="1170" alt="Home: This week against your goal, your streaks, Quick Start and the next session in your plan."><figcaption><strong>Home</strong>This week against your goal, your streaks, Quick Start and the next session in your plan.</figcaption></figure></li><li><figure><img src="assets/shots/work.webp" width="540" height="1170" alt="Work: Red, with giant digits, the ring emptying, your heart rate and the time left in the workout."><figcaption><strong>Work</strong>Red, with giant digits, the ring emptying, your heart rate and the time left in the workout.</figcaption></figure></li><li><figure><img src="assets/shots/rest.webp" width="540" height="1170" alt="Rest: Blue, so you know where you are from across the room, with what comes next."><figcaption><strong>Rest</strong>Blue, so you know where you are from across the room, with what comes next.</figcaption></figure></li><li><figure><img src="assets/shots/workout.webp" width="540" height="1170" alt="A workout at a glance: Every block drawn as a bar, the total time and the heart-rate target." loading="lazy"><figcaption><strong>A workout at a glance</strong>Every block drawn as a bar, the total time and the heart-rate target.</figcaption></figure></li><li><figure><img src="assets/shots/session.webp" width="540" height="1170" alt="After the session: The heart-rate graph, beats recovered in the rests and the time in each zone." loading="lazy"><figcaption><strong>After the session</strong>The heart-rate graph, beats recovered in the rests and the time in each zone.</figcaption></figure></li><li><figure><img src="assets/shots/progress.webp" width="540" height="1170" alt="Progress: Your weekly goal, totals, streaks, records and the last eight weeks." loading="lazy"><figcaption><strong>Progress</strong>Your weekly goal, totals, streaks, records and the last eight weeks.</figcaption></figure></li><li><figure><img src="assets/shots/plans.webp" width="540" height="1170" alt="Plans: Multi-week plans, ticked off session by session." loading="lazy"><figcaption><strong>Plans</strong>Multi-week plans, ticked off session by session.</figcaption></figure></li><li><figure><img src="assets/shots/surprise.webp" width="540" height="1170" alt="Surprise me: Say how long, how hard and what kind, and roll again until you like it." loading="lazy"><figcaption><strong>Surprise me</strong>Say how long, how hard and what kind, and roll again until you like it.</figcaption></figure></li></ul>
+<figure class="wide-shot"><img src="assets/shots/gym.webp" width="1040" height="480" alt="Gym display: the phone turned sideways, with the time left in the block filling the screen beside the exercise name and heart rate" loading="lazy"><figcaption>Gym display turns the phone sideways at full brightness, so the clock can be read from the other side of the room.</figcaption></figure>
+</div>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<div class="wrap">
+<h2 id="features-h">Everything is in, and all of it is free</h2>
+<p class="intro">You can use Redline as a plain work and rest timer and never open a menu. The rest is there for when you want it.</p>
+<dl class="features">
+<div><dt>36 ready-made workouts</dt><dd>Tabata, EMOM, AMRAP, the Norwegian 4x4, fartleks, circuits, sprints, interval walking and boxing rounds, sorted into folders. Each one says what it is and who it suits.</dd></div><div><dt>Build your own</dt><dd>By rounds: warm-up, work, rest, rounds, sets, a break between sets and a cool-down. Or block by block, in any order, with a name on each block.</dd></div><div><dt>Type it</dt><dd>Write a workout as a line of text, such as <code>8x(20/10)</code>, and Redline lays it out. Quicker than tapping when you know what you want.</dd></div><div><dt>Quick Start and Surprise me</dt><dd>Quick Start is work, rest, rounds and go. Surprise me asks how long you have, how hard and what kind, then makes a session for you to run or keep.</dd></div><div><dt>A colour for every block</dt><dd>Work is red, rest is blue, and warm-up, cool-down and breaks have colours of their own. The colour fills the screen behind giant digits and a ring that empties like a rev counter.</dd></div><div><dt>Screen off, still running</dt><dd>The workout carries on with the screen off. The notification shows the countdown with Pause, Skip and Finish, and a switch puts the timer over the lock screen.</dd></div><div><dt>Beeps, bells and a voice</dt><dd>Five beep sets, from a ringside bell to a whistle, and your own sound for Go. The phone&#x27;s own voice calls each change, the round number, the exercise, halfway and the time left, and you can change what it says.</dd></div><div><dt>Seen and felt, not just heard</dt><dd>A long buzz for work and two short ones for rest, and a screen flash on every change for a noisy gym or for training without sound.</dd></div><div><dt>Your music stays on</dt><dd>Music from another app dips while a cue plays and then comes back. Play, pause and skip buttons sit on the timer, so you need not leave the workout.</dd></div><div><dt>Heart rate from a strap</dt><dd>Pair a Bluetooth chest strap or armband and the timer shows your heart rate, your zone, the lowest, average and highest, and a live graph.</dd></div><div><dt>Coaching to a zone</dt><dd>Give a workout a target zone and the voice tells you to push harder or ease off. Afterwards you see the time spent in each zone and how many beats you recovered in the rests.</dd></div><div><dt>History and progress</dt><dd>A calendar of every session, with its graph, an effort score from 1 to 10 and your notes. Progress for each workout, records, eight-week trends and a heat-map of the year.</dd></div><div><dt>Goals, streaks and badges</dt><dd>A weekly goal, a day streak and a weeks-on-goal streak. Mark your planned rest days and they do not break the streak. Twenty-two badges to earn.</dd></div><div><dt>Five plans</dt><dd>First six weeks, Road to Tabata, Build to 4x4, Walk to run and Engine builder. Four to eight weeks each, three sessions a week, a little harder as they go.</dd></div><div><dt>Exercise names</dt><dd>More than 160 names in eight groups, from burpees to kettlebell swings, or type your own. Put one on a round and it is shown on the timer and spoken at the change.</dd></div><div><dt>Gym display and a TV clock</dt><dd>Turn the phone sideways for full brightness and digits as big as the screen allows. Mirror the phone to a TV and the TV gets its own full-screen clock.</dd></div><div><dt>Share a workout</dt><dd>Show a QR code for someone to scan, copy a short code to paste into a message, or send the workout as a small file.</dd></div><div><dt>Reminders, widgets and shortcuts</dt><dd>A reminder for any workout on the days and at the time you pick. Two home-screen widgets, one to start a workout and one for your weekly goal, and shortcuts from the app icon.</dd></div><div><dt>Health Connect</dt><dd>Off until you switch it on. Then each finished workout is written to Health Connect, where apps such as Samsung Health can read it.</dd></div><div><dt>Backup to a file</dt><dd>One file holds your workouts, history and settings. Save it, send it to a new phone and restore it there.</dd></div>
+</dl>
+</div>
+</section>
+
+<section id="typed" aria-labelledby="typed-h">
+<div class="wrap"><div class="measure">
+<h2 id="typed-h">Type a workout in one line</h2>
+<p>If you already know the session, typing it is faster than building it. Open <span class="path">Workouts</span>, tap the plus button and choose <span class="path">Type it</span>. Redline reads the line and draws the workout for you to check before you save it.</p>
+<ul class="typed">
+<li><code>8x(20/10)</code><span>Tabata: 20 seconds of work and 10 of rest, eight times.</span></li>
+<li><code>wu 5:00, 4x(4:00/3:00), cd 5:00</code><span>A warm-up, four rounds of four minutes hard and three easy, then a cool-down.</span></li>
+<li><code>3x(5x(45/15), break 60)</code><span>Five rounds of 45 on and 15 off, a minute&#x27;s break, and the whole thing three times.</span></li>
+<li><code>30 squats/15, 30 push-ups/15, 30 plank/15</code><span>A name after a time labels the block, and the voice reads it out.</span></li>
+</ul>
+<p>Times can be written as <code>45</code>, <code>1:30</code> or <code>2m</code>, and blocks are separated with commas.</p>
+</div></div>
+</section>
+
+<section id="heart" aria-labelledby="heart-h">
+<div class="wrap">
+<h2 id="heart-h">Train by heart rate, if you want to</h2>
+<p class="intro">Pair a Bluetooth chest strap or armband once and it connects by itself after that. Redline works out five zones from your maximum heart rate, which it takes from your age, from a figure you enter, or learns from your highest reading.</p>
+<ul class="zones">
+<li style="--z:#5b6678"><b>1</b>Very light<span>50 to 60%</span></li>
+<li style="--z:#0c86c8"><b>2</b>Light<span>60 to 70%</span></li>
+<li style="--z:#0f9a62"><b>3</b>Moderate<span>70 to 80%</span></li>
+<li style="--z:#c77700"><b>4</b>Hard<span>80 to 90%</span></li>
+<li style="--z:#d4231a"><b>5</b>Maximum<span>90 to 100%</span></li>
+</ul>
+<p class="after-table measure">Zones are a guide to effort and are not a medical measure. Hard efforts usually land in zones 4 and 5. If your doctor has given you a heart-rate limit, follow your doctor.</p>
+</div>
+</section>
+
+<section id="permissions" aria-labelledby="permissions-h">
+<div class="wrap">
+<h2 id="permissions-h">What it asks of your phone</h2>
+<p class="intro">Redline has no access to your camera, microphone, location, contacts or files, and uses what it does have only for what is listed here.</p>
+<div class="scroll">
+<table>
+<thead><tr><th scope="col">Access</th><th scope="col">What Redline does with it</th><th scope="col">What it never does</th></tr></thead>
+<tbody>
+<tr><th scope="row">Notifications</th><td>Shows the countdown with Pause, Skip and Finish while a workout runs, and sends the workout reminders you set. Android asks you to allow this.</td><td>Send you offers, tips or anything you did not ask for.</td></tr>
+<tr><th scope="row">Running in the background</th><td>Keeps the clock, the beeps, the voice and the link to your sensor going when the screen is off or another app is open.</td><td>Run a workout you did not start. After a restart it only puts your reminders back.</td></tr>
+<tr><th scope="row">Nearby devices (Bluetooth)</th><td>Finds the heart-rate sensor you choose and reads your heart rate from it. Android asks you to allow this when you first pair a sensor.</td><td>Read anything else from the sensor, or use Bluetooth to work out where you are.</td></tr>
+<tr><th scope="row">Health Connect</th><td>Off until you switch it on. Then it writes each finished workout: the session, heart-rate readings if you wore a sensor, and estimated calories.</td><td>Read anything from Health Connect.</td></tr>
+<tr><th scope="row">Internet access</th><td>Asks GitHub once a day, when you open the app, whether a newer version is out. Lets Google&#x27;s scanner fetch what it needs the first time you scan a QR code.</td><td>Send your workouts, your history, your heart rate or anything about you anywhere.</td></tr>
+<tr><th scope="row">Vibration</th><td>Buzzes the phone at each change, if that switch is on.</td><td>Buzz at any other time.</td></tr>
+</tbody>
+</table>
+</div>
+<p class="after-table">The detail is in the <a href="privacy.html">privacy policy</a>.</p>
+</div>
+</section>
+
+<section id="privacy" aria-labelledby="privacy-h">
+<div class="wrap">
+<h2 id="privacy-h">Your training is your business</h2>
+<ul class="plain">
+<li><h3>Nothing is collected</h3><p>Your workouts, your history and your heart-rate records are kept on your phone. Redline&#x27;s developer runs no servers and receives nothing.</p></li>
+<li><h3>No accounts, no adverts</h3><p>There is nothing to sign up for and no advertising in the app. This site has no cookies and no tracking.</p></li>
+<li><h3>Works without a signal</h3><p>A workout needs no internet at all, so it runs the same in a basement gym or on a hill as it does at home.</p></li>
+</ul>
+</div>
+</section>
+
+<section id="free" aria-labelledby="free-h">
+<div class="wrap">
+<h2 id="free-h">Free, without the adverts or the upgrade</h2>
+<p class="intro">Redline has no paid version and carries no adverts. Going by their makers&#x27; own Google Play listings, well-known interval timers on Android pay their way with adverts, a paid upgrade or both.</p>
+<dl class="features">
+<div><dt>No adverts</dt><dd>HIIT Interval Timer &amp; Tabata by Caynax and Tabata Timer: Interval Timer by Eugene Sharafan each say on their Google Play listings that they contain ads.</dd></div>
+<div><dt>Nothing held back</dt><dd>Caynax&#x27;s listing puts live heart rate, the calendar and the progress statistics behind its Pro purchase after seven days. Runloop&#x27;s listing for Seconds says a free user cannot run a timer a second time.</dd></div>
+<div><dt>More than a timer</dt><dd>Typing a workout as text, voice coaching to a heart-rate zone, multi-week plans and Health Connect are not mentioned in any of those three listings.</dd></div>
+<div><dt>Stays on the phone</dt><dd>Redline needs no internet to run a workout, and nothing about your training is sent anywhere.</dd></div>
+</dl>
+<p class="more"><a href="compare.html">See the full comparison, with sources</a></p>
+</div>
+</section>
+
+<section id="questions" aria-labelledby="questions-h">
+<div class="wrap">
+<h2 id="questions-h">Questions</h2>
+<div class="faq">
+<div><h3>Is Redline really free?</h3><p>Yes. There is no paid version, no subscription, no trial and no adverts, and nothing in the app is locked. <a href="compare.html">See the comparison</a>.</p></div><div><h3>Is Redline on Google Play?</h3><p>No. Redline is a personal project and is downloaded from this site as an Android app file. It needs Android 10 or later, which covers almost every phone sold in recent years.</p></div><div><h3>Does it keep going with the screen off?</h3><p>Yes. The workout runs in the background, the beeps and the voice still play, and the notification shows the countdown with Pause, Skip and Finish. A switch in Settings shows the timer over the lock screen, and another keeps the screen on for the whole workout.</p></div><div><h3>Will it stop my music?</h3><p>No. By default music from another app dips while Redline beeps or speaks, then comes back. You can have it left alone instead, so the cues play over the top.</p></div><div><h3>Which heart-rate sensors work?</h3><p>Bluetooth chest straps and armbands that send heart rate in the standard way, which most of them do. Most smartwatches, including Galaxy Watches, do not send heart rate to phone apps by themselves, so they do not appear. Redline does not measure heart rate with the phone.</p></div><div><h3>Do I need a heart-rate sensor?</h3><p>No. The timer, the cues, the history, the plans and the streaks all work without one. Without a sensor, calories are a rough estimate from the workout and your weight.</p></div><div><h3>Does it need the internet?</h3><p>No. A workout needs no internet at all. Redline goes online only to ask whether a newer version is out, once a day when you open it, and the first time you open the QR scanner. The detail is in the <a href="privacy.html#services">privacy policy</a>.</p></div><div><h3>What can I type in Type it?</h3><p>Times are written as work/rest, so 20/10 is 20 seconds of work and 10 of rest. A number and x repeats what is in the brackets, wu and cd add a warm-up and a cool-down, break adds a longer break, and a name after a time labels it. There are examples <a href="#typed">further up this page</a>.</p></div><div><h3>How do I put the timer on a TV?</h3><p>Mirror your phone to the TV, with Smart View on a Samsung phone or with a cable, then start a workout. The TV shows its own full-screen clock in the colour of the block. There is nothing to set up.</p></div><div><h3>Is there a watch app?</h3><p>No. Redline runs on the phone only, and it does not read heart rate from a watch.</p></div><div><h3>How do I move my workouts to a new phone?</h3><p>In Settings, open Backup and restore and choose Save a backup file. It holds your workouts, history and settings in one file. Send it to the new phone, install Redline there and choose Restore from a backup file.</p></div><div><h3>How do I update Redline?</h3><p>Redline tells you on its home screen when a newer version is out. Download it from this site and install it over the one you have. Your workouts, history and settings are kept.</p></div>
+</div>
+</div>
+</section>
+
+<section id="get" aria-labelledby="get-h">
+<div class="wrap"><div class="measure">
+<h2 id="get-h">Getting Redline</h2>
+<p>Redline is a personal project and is free, with no paid version. It is downloaded from this site as an Android app file and is not on Google Play. It runs on phones and tablets with Android 10 or later.</p>
+<p class="get"><a class="button" href="https://github.com/CustomGPTer/redline/releases/latest/download/Redline.apk">Download for Android</a></p>
+<p>When you download, Chrome may warn that the file might be harmful. It shows this warning for app files that do not come from Google Play; choose Download anyway. If you want to be sure the file is the real one, compare it with the checksum in the <a href="releases.html#checking">release notes</a>.</p>
+<p>Open the downloaded file to install it. The first time, Android asks you to allow your browser to install apps. Google Play Protect may also step in, because Redline is an app it has not seen before: choose More details, then Install anyway. To update, install the latest version over the one you have: your workouts, history and settings are kept. What changed in each version is in the <a href="releases.html">release notes</a>.</p>
+<p class="note">Hard intervals are hard on purpose. Redline keeps time and keeps records. It is not a trainer and it is not medical advice. Check with a doctor before you start if you are new to exercise, pregnant, over 40 or have a health condition, and stop if something feels wrong. The detail is in the <a href="terms.html#health">terms of use</a>.</p>
+<p>The same developer makes <a href="more-apps.html">other free Android apps</a>. For a question, a problem, or anything about your data, <a href="https://github.com/CustomGPTer/redline/issues">open an issue on GitHub</a>.</p>
+</div></div>
+</section>
+</main>
+<footer class="colophon">
+<div class="wrap">
+<div>
+<p>&copy; 2026 Jonathan Jackson. Redline is an independent app.</p>
+<p>This site uses no cookies and no tracking. It is set in Literata, Atkinson Hyperlegible and Barlow Condensed.</p>
+</div>
+<nav aria-label="Footer"><ul>
+<li><a href="./">Home</a></li>
+<li><a href="compare.html">Compare</a></li>
+<li><a href="releases.html">Release notes</a></li>
+<li><a href="more-apps.html">More apps</a></li>
+<li><a href="privacy.html">Privacy policy</a></li>
+<li><a href="terms.html">Terms of use</a></li>
+<li><a href="licences.html">Licences</a></li>
+<li><a href="https://github.com/CustomGPTer/redline/issues">Contact</a></li>
+</ul></nav>
+</div>
+</footer>
+</body>
+</html>
